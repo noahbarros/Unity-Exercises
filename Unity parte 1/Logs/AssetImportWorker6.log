@@ -1,0 +1,303 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.0b10 (ae8cd2bb2a22) revision 11439314'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'pt' Physical Memory: 16312 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.0b10\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Noah & Luiza/Desktop/Unity parte 1
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+58128
+Successfully changed project path to: C:/Users/Noah & Luiza/Desktop/Unity parte 1
+C:/Users/Noah & Luiza/Desktop/Unity parte 1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 113.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.0b10 (ae8cd2bb2a22)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.0b10/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Noah & Luiza/Desktop/Unity parte 1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.0b10/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.0b10/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.0b10/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.0b10/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005793 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 109.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.161 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1163ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (839ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+				TypeCache.Initialize (228ms)
+					TypeCache.ScanAssembly (223ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (464ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (13ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005011 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Noah & Luiza\Desktop\Unity parte 1\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Noah & Luiza\Desktop\Unity parte 1\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.739 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1740ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1317ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (432ms)
+				TypeCache.Initialize (425ms)
+					TypeCache.ScanAssembly (413ms)
+				ResolveRequiredComponents (6ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (571ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (12ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (384ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (49.9 KB). Loaded Objects now: 3571.
+Memory consumption went from 479.0 MB to 479.0 MB.
+Total: 7.587400 ms (FindLiveObjects: 0.692800 ms CreateObjectMapping: 0.810900 ms MarkObjects: 5.897300 ms  DeleteObjects: 0.184200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95960.573854 seconds.
+  path: Assets/Texturas/Personagens/Personagem_Fazendeiro.png
+  artifactKey: Guid(54d1f54ae06f3704f81013c74418b60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Personagens/Personagem_Fazendeiro.png using Guid(54d1f54ae06f3704f81013c74418b60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f32ad0bc0611add7bdcc6d1583a14d') in 0.119145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.665639 seconds.
+  path: Assets/Texturas/Personagens/Personagem_HomemCasaco.png
+  artifactKey: Guid(db39a3f749c1d0c4d9c1a32964e7f20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Personagens/Personagem_HomemCasaco.png using Guid(db39a3f749c1d0c4d9c1a32964e7f20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c06857ccaeebb8358ce37af6f1e1a3c') in 0.024629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.112036 seconds.
+  path: Assets/Texturas/Personagens/Personagem_HomemSobrevivente02.png
+  artifactKey: Guid(759a2865d1d13124fb63d5d335119260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Personagens/Personagem_HomemSobrevivente02.png using Guid(759a2865d1d13124fb63d5d335119260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c41c635699f7618a39a785edc7e76b7') in 0.019921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.145195 seconds.
+  path: Assets/Texturas/Personagens/Personagem_HomemSobrevivente03.png
+  artifactKey: Guid(4ee261b229fc39448af917406897d8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Personagens/Personagem_HomemSobrevivente03.png using Guid(4ee261b229fc39448af917406897d8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac5c6cbb460a723726ecc05ec514c23') in 0.029405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089396 seconds.
+  path: Assets/Texturas/Personagens/Personagem_Medico.png
+  artifactKey: Guid(403888f5ebac1c9429f7645d03dc100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Personagens/Personagem_Medico.png using Guid(403888f5ebac1c9429f7645d03dc100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae79c0392e365af0586678cc2f57064') in 0.019557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.080825 seconds.
+  path: Assets/Texturas/Personagens/Personagem_MulherSoldado.png
+  artifactKey: Guid(cbdbc75b8920ae74c87300b761f20e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Personagens/Personagem_MulherSoldado.png using Guid(cbdbc75b8920ae74c87300b761f20e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33c9a4ebe81838c26cc6ef98d75cc16') in 0.021809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047458 seconds.
+  path: Assets/Texturas/Personagens/Personagem_Piromaniaca.png
+  artifactKey: Guid(45b595a2f40e7354aabf68560d176ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Personagens/Personagem_Piromaniaca.png using Guid(45b595a2f40e7354aabf68560d176ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b55b47a4514a8f61520b16cbb27f0b') in 0.023295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.321888 seconds.
+  path: Assets/Texturas/Personagens/Personagem_RiscoBiologico.png
+  artifactKey: Guid(9981feb813e54334cbc9ae372c061bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Personagens/Personagem_RiscoBiologico.png using Guid(9981feb813e54334cbc9ae372c061bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66b058b23a93f3ab4d42fce945f15f2') in 0.017002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.410664 seconds.
+  path: Assets/Texturas/Personagens/Personagem_Sobrevivente02.png
+  artifactKey: Guid(99929664d02b2b84f97a09ecbfd0e477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Personagens/Personagem_Sobrevivente02.png using Guid(99929664d02b2b84f97a09ecbfd0e477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d3fceb1a7f177b62461b851f9a18e3') in 0.025535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048093 seconds.
+  path: Assets/Texturas/Personagens/Personagem_Xerife.png
+  artifactKey: Guid(15e6407923e657947b0a85a81335a9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Personagens/Personagem_Xerife.png using Guid(15e6407923e657947b0a85a81335a9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b99efa4572c6ac05b663d50ecf9c39f') in 0.016924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.327777 seconds.
+  path: Assets/Texturas/Zumbis/Zumbi_Avo.png
+  artifactKey: Guid(f0509460e2235064e9007cfc898e8dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Zumbis/Zumbi_Avo.png using Guid(f0509460e2235064e9007cfc898e8dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed461b2df68c95f0611e4449edd1a5e') in 0.017443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180162 seconds.
+  path: Assets/Texturas/Zumbis/Zumbi_Caminhoneiro.png
+  artifactKey: Guid(24ea722503c8082419da354c575bf04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Zumbis/Zumbi_Caminhoneiro.png using Guid(24ea722503c8082419da354c575bf04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74979d492c7ac7b060666b4b15e1838f') in 0.025546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.550065 seconds.
+  path: Assets/Texturas/Zumbis/Zumbi_ControleAeroporto.png
+  artifactKey: Guid(5eb25a982d788cf42a2c3dcd29fda88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Zumbis/Zumbi_ControleAeroporto.png using Guid(5eb25a982d788cf42a2c3dcd29fda88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b21984c2386fd2cca4714caa64b28c') in 0.025204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.367161 seconds.
+  path: Assets/Texturas/Zumbis/Zumbi_Executivo.png
+  artifactKey: Guid(86b594a11a411eb43a6d96e02578abe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Zumbis/Zumbi_Executivo.png using Guid(86b594a11a411eb43a6d96e02578abe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d9f5d0cc3f80974b33cf847694e62d') in 0.026267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.594793 seconds.
+  path: Assets/Texturas/Zumbis/Zumbi_Gangster.png
+  artifactKey: Guid(1f5b1d7785802d347a3da9b7a907a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Zumbis/Zumbi_Gangster.png using Guid(1f5b1d7785802d347a3da9b7a907a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e2cc536cd5c8d46d21cf0bd126d0b4') in 0.017035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023880 seconds.
+  path: Assets/Texturas/Zumbis/Zumbi_JogadorBasket.png
+  artifactKey: Guid(7115aa9d40fcec047b0d01c25de00e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Zumbis/Zumbi_JogadorBasket.png using Guid(7115aa9d40fcec047b0d01c25de00e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e38f38fa94fd317dfbfee20616d727') in 0.016894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.791562 seconds.
+  path: Assets/Texturas/Zumbis/Zumbi_Ladrao.png
+  artifactKey: Guid(6b294cf1c2f696e4e9faeea49394c4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Zumbis/Zumbi_Ladrao.png using Guid(6b294cf1c2f696e4e9faeea49394c4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f46c184baf5088ae82da9ddd6591284') in 0.024088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027467 seconds.
+  path: Assets/Texturas/Zumbis/Zumbi_Mecanico.png
+  artifactKey: Guid(d0d7a195b8333024f997fb1fcd618e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Zumbis/Zumbi_Mecanico.png using Guid(d0d7a195b8333024f997fb1fcd618e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e3a8841860ca7c3e9414a456bdf10c') in 0.018138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.852419 seconds.
+  path: Assets/Texturas/Zumbis/Zumbi_MulherFazendeiro.png
+  artifactKey: Guid(d720e4ace5d897f43a5ff988a681ae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Zumbis/Zumbi_MulherFazendeiro.png using Guid(d720e4ace5d897f43a5ff988a681ae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b21c2a4d1c9d83fb6aae79de4697e9') in 0.024022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.385970 seconds.
+  path: Assets/Texturas/Zumbis/Zumbi_PapaiNoel.png
+  artifactKey: Guid(d2af7cac1255c844b8f9b8eeca5f0da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Zumbis/Zumbi_PapaiNoel.png using Guid(d2af7cac1255c844b8f9b8eeca5f0da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffa13d50e47f0dd116f0f6f521cac44') in 0.025980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.387690 seconds.
+  path: Assets/Texturas/Zumbis/Zumbi_PoliciaMontada.png
+  artifactKey: Guid(7da7ad78bc14e7442aed1c6e260aa8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Zumbis/Zumbi_PoliciaMontada.png using Guid(7da7ad78bc14e7442aed1c6e260aa8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c38e4f487483857d3c1f1c2ef843bc7') in 0.019130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.363774 seconds.
+  path: Assets/Texturas/Zumbis/Zumbi_SegurancaAeroporto.png
+  artifactKey: Guid(80dca1f9597bd29419d84998401e7621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Zumbis/Zumbi_SegurancaAeroporto.png using Guid(80dca1f9597bd29419d84998401e7621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99082f0e3b85ffd8ce6f7f2fe950207') in 0.028408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.174677 seconds.
+  path: Assets/Texturas/Zumbis/Zumbi_TrabalhadorEstrada.png
+  artifactKey: Guid(258175a7011fa554c957f848b082fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/Zumbis/Zumbi_TrabalhadorEstrada.png using Guid(258175a7011fa554c957f848b082fa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bddc110e06b502de81f5abf63a89ac') in 0.016132 seconds 
